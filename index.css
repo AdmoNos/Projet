@@ -1,0 +1,39 @@
+/* Generals */
+
+body{
+    margin: 0vw;
+}
+
+ul{
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+}
+
+p{
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Mise en forme */
+
+#header{
+    display: block;
+}
+
+#header-tag-align-center{
+    display: block;
+}
+
+#header-tag-text{
+    color: white;
+    width: 10vw;
+}
+
+#navbar{
+    display: block;
+    background-color: darkgray;
+}
