@@ -18,22 +18,61 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style-type: none;
+}
+
+
 /* Mise en forme */
 
 #header{
     display: block;
+    background-color: #343433;
+    height: auto;
 }
 
 #header-tag-align-center{
     display: block;
+    text-align: center;
+    padding-top: 1%;
 }
 
 #header-tag-text{
+    display: inline-block;
     color: white;
-    width: 10vw;
+    font-size: 4vw;
 }
 
 #navbar{
     display: block;
-    background-color: darkgray;
+    background-color: #eeeeed;
+    text-align: center;
+}
+
+#navbar-unlisted-list{
+    padding-left: 0px;
+}
+
+#navbar-item{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#navbar-item-text{
+    color: black;
+    font-size: 20px;
+}
+
+#main{
+    display: block;
+}
+
+#main-left{
+    display: inline-block;
+    background-color: #eeeeed;
+}
+
+#main-right{
+    display: inline-block;
 }
