@@ -65,14 +65,49 @@ li{
 }
 
 #main{
-    display: block;
+    position: fixed;
 }
 
 #main-left{
-    display: inline-block;
+    position: fixed;
+    background-color: #eeeeed;
+    width: 250px;
+    height: 100%;
+}
+
+.titre-navbar-menu{
+    margin-left: 10px;
+}
+
+#navbar-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #eeeeed;
 }
 
-#main-right{
+#navabar-menu-text{
     display: inline-block;
+    color: black;
+    font-size: 20px;
+}
+
+.navabar-menu-text-soda{
+    width: 20px;
+}
+
+.navabar-menu-text-biscuit{
+    width: 20px;
+}
+
+.navabar-menu-text-fruit_sec{
+    width: 20px;
+}
+
+.navabar-menu-connexion{
+    color: black;
+}
+
+#main-right{
+    margin-left: 260px;
 }
