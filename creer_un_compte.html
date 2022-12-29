@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Connexion</title>
-	<link rel="stylesheet" type="text/css" href="connexion.css">
+	<link rel="stylesheet" type="text/css" href="creer_un_compte.css">
 </head>
 <body>
 	<div id="header">
@@ -37,15 +37,13 @@
             <a class="navabar-menu-connexion" href="connexion.html">Connexion</a>
         </div>
 	<div class="main-login">
-		<div>
-			<h1>Indentification Client</h1>
-			<p class="login-text">Merci d'entrer votre identifiant et votre mot de passe pour accéder à votre espace client. Si vous n'avez pas de compte client, vous pouvez en créer un gratuitement <a class="login-link" href="creer_un_compte.html">ici</a>.</p>
-		</div>
-		<div class="login">
+		<div class="signup">
 			<form>
+				<label for="chk" aria-hidden="true">Créer un compte</label>
+				<input type="text" name="txt" placeholder="User name" required="">
 				<input type="email" name="email" placeholder="Email" required="">
 				<input type="password" name="pswd" placeholder="Password" required="">
-				<button>Login</button>
+				<button>Sign up</button>
 			</form>
 		</div>
 	</div>
